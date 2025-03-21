@@ -40,7 +40,7 @@ cpi_inflation = cpi_monthly.pct_change(12) * 100
 # -------------------------------
 # Concatenate the series along columns
 data = pd.concat([ sp500_monthly,gs10_monthly,fedfunds_monthly,cpi_inflation], axis=1)
-data.to_csv('./test.csv')
+data.to_csv('./collected_data.csv')
 
 # Rename columns for clarity
 data.columns = ['SP500', 'GS10', 'FEDFUNDS', 'Inflation']
