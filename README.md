@@ -3,7 +3,7 @@
 ## File Structure
 
 ```
-my‑project/
+Version-1/
 │
 ├── data/
 │   ├── raw/          # immutable downloaded files
