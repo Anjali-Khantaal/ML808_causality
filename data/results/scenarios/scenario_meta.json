@@ -1,1 +1,11 @@
-
+{
+  "ts": "2025-04-23T14:48:27.683680",
+  "scenarios": [
+    "tighten100",
+    "curve10bp",
+    "infl_up1",
+    "equity_crash"
+  ],
+  "n_paths": 36,
+  "horizon_months": 12
+}
