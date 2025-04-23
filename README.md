@@ -66,7 +66,7 @@ python src/evaluate.py
 Figures and CSVs appear under causal/, scenarios/, portfolio/, results/.
 ```
 ***
-## 🔍 5. Data Lineage Preview
+## 5. Data Lineage Preview
 
 | Column              | Source Ticker | Provider       | Note                             |
 |---------------------|---------------|----------------|----------------------------------|
@@ -81,7 +81,7 @@ Figures and CSVs appear under causal/, scenarios/, portfolio/, results/.
 
 ---
 
-## 📊 6. Main Results (test 2021-06 → 2025-03)
+## 6. Main Results (test 2021-06 → 2025-03)
 
 | Model       | RMSE ↓ | KS avg ↓ | 95 % CVaR gap ↓  |
 |-------------|--------|----------|------------------|
@@ -93,7 +93,7 @@ Figures and CSVs appear under causal/, scenarios/, portfolio/, results/.
 
 ---
 
-## 🧩 7. Extending the Project
+## 7. Extending the Project
 
 - **More assets** – Add tickers in `notebooks/01_data_collection.ipynb`, then re-run DAG + training.  
 - **Custom shocks** – Edit `SCENARIOS` dict in `src/generate_scenarios.py`.  
@@ -101,7 +101,7 @@ Figures and CSVs appear under causal/, scenarios/, portfolio/, results/.
 
 ---
 
-## 📜 8. Licence & Citation
+## 8. Licence & Citation
 
 **Code:** MIT Licence  
 **Data:** FRED & Yahoo Finance (public domain for research)
