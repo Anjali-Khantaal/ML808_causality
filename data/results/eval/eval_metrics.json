@@ -1,0 +1,37 @@
+{
+  "RMSE": {
+    "SP500_Returns": 4.838,
+    "GS10_Level": 0.669,
+    "FEDFUNDS_Level": 2.336,
+    "FEDFUNDS_BpsChange": 0.287,
+    "Inflation_YoY": 2.963
+  },
+  "KS": {
+    "SP500_Returns": 0.444,
+    "GS10_Level": 0.222,
+    "FEDFUNDS_Level": 0.694,
+    "FEDFUNDS_BpsChange": 0.639,
+    "Inflation_YoY": 0.528
+  },
+  "CRPS": {
+    "SP500_Returns": 3.597,
+    "GS10_Level": -0.064,
+    "FEDFUNDS_Level": 1.043,
+    "FEDFUNDS_BpsChange": 0.193,
+    "Inflation_YoY": 1.96
+  },
+  "MMD": 0.1389,
+  "CMI_Infl_Eq_given_GS10": {
+    "real": -0.5927,
+    "synthetic": 0.0514
+  },
+  "CVaR_gap": {
+    "baseline": 0.048,
+    "tighten100": 0.041,
+    "curve10bp": 0.035,
+    "infl_up1": 0.05,
+    "equity_crash": 0.031
+  },
+  "runtime_sec": 0.33,
+  "rss_mb": 1348.7
+}
